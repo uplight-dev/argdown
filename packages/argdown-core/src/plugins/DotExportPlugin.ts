@@ -404,7 +404,7 @@ export class DotExportPlugin implements IArgdownPlugin {
         settings.statement!.margin
       }", style="${
         settings.statement!.style
-      }", color="${color}", fillcolor="white", labelfontcolor="white", fontcolor="${
+      }", color="${color}", fillcolor="${color}", labelfontcolor="white", fontcolor="${
         node.fontColor
       }", type="${node.type}"${widthProp}];\n`;
     }
